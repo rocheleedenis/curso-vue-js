@@ -1,0 +1,69 @@
+{
+	"categorias": [
+		{
+			"id": 1,
+			"titulo": "Terror",
+			"filmes": [
+				{
+					"id": 1,
+					"titulo": "It - A Coisa",
+					"imagem": "https://abrilexame.files.wordpress.com/2017/09/pennywise.jpg"
+				}, {
+					"id": 2,
+					"titulo": "Anabelle",
+					"imagem": "https://abrilveja.files.wordpress.com/2017/08/annabelle_proporcao.jpg"
+				}, {
+					"id": 3,
+					"titulo": "Exorcista",
+					"imagem": "http://www.diarioonline.com.br/app/painel/modulo-noticia/img/imagensdb/original/destaque-436421-capa-38.jpg"
+				}, {
+					"id": 4,
+					"titulo": "O Chamado",
+					"imagem": "https://observatoriodocinema.bol.uol.com.br/wp-content/uploads/2017/01/samara.jpg"
+				}, {
+					"id": 5,
+					"titulo": "A Freira",
+					"imagem": "https://cdn.cinepop.com.br/2018/08/afreira-750x380.jpg"
+				}, {
+					"id": 6,
+					"titulo": "Invocação do Mal",
+					"imagem": "https://abrilsuperinteressante.files.wordpress.com/2018/07/invocaccca7acc83o-do-mal-2-poster-main-2.jpg?quality=70&strip=info"
+				}
+			]
+		},
+		{
+			"id": 2,
+			"titulo": "Suspense",
+			"filmes": [
+				{
+					"id": 1,
+					"titulo": "It - A coisa",
+					"imagem": "https://img1.ibxk.com.br/2015/11/12/12134915138723.jpg?w=700"
+				},
+				{
+					"id": 2,
+					"titulo": "It - A coisa",
+					"imagem": "https://img1.ibxk.com.br/2015/11/12/12134915138723.jpg?w=700"
+				},
+				{
+					"id": 3,
+					"titulo": "It - A coisa",
+					"imagem": "https://img1.ibxk.com.br/2015/11/12/12134915138723.jpg?w=700"
+				},
+				{
+					"id": 4,
+					"titulo": "It - A coisa",
+					"imagem": "https://img1.ibxk.com.br/2015/11/12/12134915138723.jpg?w=700"
+				}, {
+					"id": 5,
+					"titulo": "It - A coisa",
+					"imagem": "https://img1.ibxk.com.br/2015/11/12/12134915138723.jpg?w=700"
+				}, {
+					"id": 6,
+					"titulo": "It - A coisa",
+					"imagem": "https://img1.ibxk.com.br/2015/11/12/12134915138723.jpg?w=700"
+				}
+			]
+		}
+	]
+}

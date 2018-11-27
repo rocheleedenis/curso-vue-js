@@ -5,7 +5,7 @@
 </template>
 
 <script>
-	import Categoria from './components/Categoria.vue';
+	import Categoria from '../components/Categoria.vue';
 
 	export default {
 		components: { Categoria },
@@ -58,6 +58,9 @@
 	}
 	* {
 		box-sizing: border-box;
+	}
+	#app {
+		width: 100%;
 	}
 
 	h1,
@@ -116,25 +119,25 @@
 	}
 
 	.slider .handle {
-			background: rgba(20, 20, 20, 0.26);
-			position: absolute;
-			top: 0;
-			height: 251px;
-			bottom: 0;
-			z-index: 20;
-			width: 7%;
-			text-align: center;
-			-webkit-box-pack: center;
-			-webkit-justify-content: center;
-			-moz-box-pack: center;
-			-ms-flex-pack: center;
-			justify-content: center;
-			display: -webkit-box;
-			display: -webkit-flex;
-			display: -moz-box;
-			display: -ms-flexbox;
-			display: flex;
-			color: #fff;
+		background: rgba(20, 20, 20, 0.26);
+		position: absolute;
+		top: 0;
+		height: 251px;
+		bottom: 0;
+		z-index: 20;
+		width: 7%;
+		text-align: center;
+		-webkit-box-pack: center;
+		-webkit-justify-content: center;
+		-moz-box-pack: center;
+		-ms-flex-pack: center;
+		justify-content: center;
+		display: -webkit-box;
+		display: -webkit-flex;
+		display: -moz-box;
+		display: -ms-flexbox;
+		display: flex;
+		color: #fff;
 	}
 
 	.fa{
@@ -156,7 +159,6 @@
 		padding-bottom: 10px;
 	}
 
-
 	.gui-card {
 		position: relative;
 		display: inline-block;
@@ -168,13 +170,13 @@
 		-webkit-transition: 450ms all;
 		transition: 450ms all;
 		-webkit-transform-origin: center left;
-						transform-origin: center left;
+		transform-origin: center left;
 	}
 	.gui-card__img {
 		width: 250px;
 		height: 140.625px;
 		-o-object-fit: cover;
-			 object-fit: cover;
+		object-fit: cover;
 	}
 	.gui-card__details {
 		position: absolute;
@@ -236,12 +238,11 @@
 	}
 	.row__inner:hover .gui-card:hover {
 		-webkit-transform: scale(1.5);
-						transform: scale(1.5);
+		transform: scale(1.5);
 		opacity: 1;
 	}
 	.gui-card:hover ~ .gui-card {
 		-webkit-transform: translate3d(125px, 0, 0);
-						transform: translate3d(125px, 0, 0);
+		transform: translate3d(125px, 0, 0);
 	}
-
 </style>
